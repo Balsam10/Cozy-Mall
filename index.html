@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Cozy Mall - Your Premium Online Shopping Destination</title>
+<meta name="description" content="Discover amazing products at Cozy Mall - your one-stop online shopping destination for fashion, electronics, 
+                                      home goods and more" />
+<link rel="icon" href="images/logo.png" type="image/png">
+
+<link href="style.css" rel="stylesheet" type="text/css">
+<link href="normalize.css" rel="stylesheet" type="text/css">
+<link href="fontawesome-free-6.7.2-web/css/all.min.css" rel="stylesheet" type="text/css">    
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+      <nav class="navbar">
+          
+        <div class="nav-container">
+          <div class="logo">
+            <h2>Cozy Mall</h2>
+          </div>
+            
+            <!-- Menu + Menu Toggle + For Responsive -->
+            
+          <input type="checkbox" id="menu-toggle">
+          <label for="menu-toggle" class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+          </label>
+          <ul class="nav-menu">
+            <li><a href="index.html" class="nav-link active">Home</a></li>
+            <li><a href="categories.html" class="nav-link">Categories</a></li>
+            <li><a href="blog.html" class="nav-link">Blog</a></li>
+            <li><a href="aboutCreator.html" class="nav-link">MY-Blog</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+            
+            
+          <div class="nav-actions">
+            <button class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+            <button class="cart-btn"><i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+        </div>
+          
+        
+      </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+      <!-- Hero Section -->
+      <section class="hero">
+        <div class="hero-content">
+          <div class="hero-text">
+            <h1>Welcome to Your Cozy Shopping Experience</h1>
+            <p>Discover curated collections of premium products that bring comfort and style to your everyday life.</p>
+            <div class="hero-buttons">
+              <a href="categories.html" class="btn btn-primary">Shop Now</a>
+              <a href="#featured" class="btn btn-secondary">Explore More</a>
+            </div>
+          </div>
+          <div class="hero-image">
+            <img src="1.jpg" alt="Shopping Experience" />
+          </div>
+        </div>
+      </section>
+
+      <!-- Featured Categories -->
+      <section id="featured" class="featured-categories">
+        <div class="container">
+          <h2 class="section-title">Shop by Category</h2>
+          <div class="categories-grid">
+            <div class="category-card">
+              <img src="2.jpg" alt="Fashion" />
+              <div class="category-content">
+                <h3>Fashion</h3>
+                <p>Trendy clothing for every style</p>
+                <a href="categories.html#fashion" class="category-link">Shop Fashion →</a>
+              </div>
+            </div>
+            <div class="category-card">
+              <img src="3.jpg" alt="Electronics" />
+              <div class="category-content">
+                <h3>Electronics</h3>
+                <p>Latest tech and gadgets</p>
+                <a href="categories.html#electronics" class="category-link">Shop Electronics →</a>
+              </div>
+            </div>
+             <div class="category-card">
+              <img src="4.jpg" alt="Home & Garden">
+              <div class="category-content">
+                <h3> Home & Garden</h3>
+                <p>Beautiful items for your space</p>
+                <a href="categories.html#home" class="category-link">Shop Home →</a>
+              </div>
+            </div>
+            <div class="category-card">
+              <img src="5.jpg" alt="Beauty" />
+              <div class="category-content">
+                <h3>Beauty</h3>
+                <p>Premium beauty products</p>
+                <a href="categories.html#beauty" class="category-link">Shop Beauty →</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Featured Products -->
+      <section class="featured-products">
+        <div class="container">
+          <h2 class="section-title">Trending Now</h2>
+          <div class="products-grid">
+            <div class="product-card">
+              <img src="watch.jpg" alt="Product 1" />
+              <h4>Premium Watch</h4>
+              <p class="price">$299</p>
+              <button class="btn-add-cart">Add to Cart</button>
+            </div>
+            <div class="product-card">
+              <img src="wirless.jpg" alt="Product 2" />
+              <h4>Wireless Headphones</h4>
+              <p class="price">$199</p>
+              <button class="btn-add-cart">Add to Cart</button>
+            </div>
+            <div class="product-card">
+              <img src="designer bag.jpg" alt="Product 3" />
+              <h4>Designer Bag</h4>
+              <p class="price">$450</p>
+              <button class="btn-add-cart">Add to Cart</button>
+            </div>
+            <div class="product-card">
+              <img src="tablet.jpg" alt="Product 4" />
+              <h4>Smart Tablet</h4>
+              <p class="price">$599</p>
+              <button class="btn-add-cart">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Testimonials -->
+      <section class="testimonials">
+        <div class="container">
+          <h2 class="section-title">What Our Customers Say</h2>
+          <div class="testimonials-grid">
+            <div class="testimonial-card">
+              <div class="stars"><span>&#9733; &#9733; &#9733; &#9733; &#9733;</span></div>
+              <p>"Amazing shopping experience! Quality products and fast delivery."</p>
+              <div class="customer">
+                <img src="12.jpg" alt="Customer" />
+                <span>Sarah Johnson</span>
+              </div>
+            </div>
+            <div class="testimonial-card">
+              <div class="stars"><span>&#9733; &#9733; &#9733; &#9733; &#9733;</span></div>
+              <p>"Love the variety and customer service is exceptional!"</p>
+              <div class="customer">
+                <img src="11.jpg" alt="Customer" />
+                <span>Mike Chen</span>
+              </div>
+            </div>
+            <div class="testimonial-card">
+              <div class="stars"><span>&#9733; &#9733; &#9733; &#9733; &#9733;</span></i></div>
+              <p>"Best online mall I've ever shopped at. Highly recommended!"</p>
+              <div class="customer">
+                <img src="10.jpg" alt="Customer" />
+                <span>Joe Davis</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Newsletter -->
+      <section class="newsletter">
+        <div class="container">
+          <div class="newsletter-content">
+            <h2>Stay Updated</h2>
+            <p>Subscribe to get special offers and latest updates</p>
+            <form class="newsletter-form">
+              <input type="email" placeholder="Enter your email" required />
+              <button type="submit" class="btn btn-primary">Subscribe</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer">
+ 
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3>Cozy Mall</h3>
+            <p>Your premium online shopping destination for quality products and exceptional service.</p>
+            <div class="social-links" id="icons">
+              <a href="https://www.facebook.com/balsamNawadallah"><i class="fab fa-facebook-square"></i> </a>
+              <a href="https://www.instagram.com/balsamnawadallah/"><i class="fab fa-instagram-square"></i> </a>
+              <a href="https://discord.com/channels/1130033525408673896/1130033526255927348"><i class="fab fa-discord"></i> </a>
+            </div>
+          </div>
+          <div class="footer-section">
+            <h4>Quick Links</h4>
+            <ul>
+            <li><a href="./index.html" class="nav-link active">Home</a></li>
+            <li><a href="categories.html" class="nav-link">Categories</a></li>
+            <li><a href="blog.html" class="nav-link">Blog</a></li>
+            <li><a href="aboutCreator.html" class="nav-link">MY-Blog</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h4>Categories</h4>
+            <ul>
+              <li><a href="cozy/categories.html#fashion">Fashion</a></li>
+              <li><a href="cozy/categories.html#electronics">Electronics</a></li>
+              <li><a href="cozy/categories.html#home">Home & Garden</a></li>
+              <li><a href="cozy/categories.html#beauty">Beauty</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h4>Contact Info</h4>
+            <p> <a href="mailto:balsamwork10@gmail.com"></a> <i class="fa-solid fa-envelope"></i> balsamwork10@gmail.com</p>
+              <p> <a href="https://wa.me/+970595350722"></a> <i class="fa-brands fa-whatsapp"></i> +970 595 350 722</p>
+            <p> <i class="fa-solid fa-location-dot"></i> 123 Shopping St, Mall City, MC 12345</p>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 BalsamAwadallah. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+    
+</body>
+</html>
